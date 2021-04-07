@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mycompany</groupId>
-    <artifactId>SemanticWeb_1</artifactId>
+    <artifactId>SemanticWeb_1_Lab3</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>SemanticWeb_1</name>
+    <name>SemanticWeb_1_Lab3</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -22,6 +22,14 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.jena/apache-jena-libs -->
+    <dependency>
+        <groupId>org.apache.jena</groupId>
+        <artifactId>apache-jena-libs</artifactId>
+        <version>4.0.0</version>
+        <type>pom</type>
+    </dependency>
+
 
     <build>
         <plugins>

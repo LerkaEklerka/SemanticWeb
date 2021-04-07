@@ -13,11 +13,11 @@
     </head>
     <body>
         <h1>Hello World! My name is Valeriia Bachynska.</h1>
-        
+        <%--
         <%!int myInt=0;%>
             <%myInt++;%>
             <p><%=myInt%></p>
-            
+        --%>    
             <p><b>Add some information about yourself</b></p>
                     
             <form action="<%=request.getContextPath()%>/servlet" method="post">
