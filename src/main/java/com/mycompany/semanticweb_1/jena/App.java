@@ -27,7 +27,7 @@ import org.apache.jena.vocabulary.VCARD;
 public class App {
 
     // some definitions
-    static String personURI = "https://somewhere/KarlMarks";
+    static String personURI = "https://somewhere/KarlMarx";
     static String fullName = "Karl Marx";
     static String givenName = "Karl";
     static String familyName = "Marx";

@@ -30,5 +30,13 @@
                 <input type="submit" value="Ok"/>                
             </form>
             
+                <h2> Create resource </h2>    
+                <form action="<%=request.getContextPath()%>/resource" method="post">
+                    <label for="given">First name:</label><br>
+                    <input type="text" name="given" placeholder="Enter given name"/><br><br>
+                    <label for="family">Last name:</label><br>
+                    <input type="text" name="family" placeholder="Enter family name"><br><br>
+                    <input type="submit" value="Ok"/>
+                </form>    
     </body>
 </html>
