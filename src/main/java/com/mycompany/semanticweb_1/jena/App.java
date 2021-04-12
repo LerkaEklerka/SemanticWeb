@@ -26,13 +26,14 @@ import org.apache.jena.vocabulary.VCARD;
  */
 public class App {
 
-    static String personURI = "https://www.wikidata.org/wiki/Q9061";
+    // some definitions
+    static String personURI = "https://somewhere/KarlMarks";
     static String fullName = "Karl Marx";
     static String givenName = "Karl";
     static String familyName = "Marx";
 
     public static void main(String[] args) throws FileNotFoundException {
-        // some definitions
+        
 
         // create an empty Model
         Model model = ModelFactory.createDefaultModel();
